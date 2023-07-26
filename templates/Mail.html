@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Voice-based Email System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Voice-based Email System</h1>
+      <div class="buttons">
+        <form action="/Inbox" method="get">
+          <button>Inbox</button>
+        </form>
+        <form action="/Sent Mailbox" method="get">
+          <button>Sent Mailbox</button>
+        </form>
+        <form action="/Drafts" method="get">
+          <button>Drafts</button>
+        </form>
+        <form action="/Important Mails" method="get">
+          <button>Important Mails</button>
+        </form>
+        <form action="/Spam" method="get">
+          <button>Spam</button>
+        </form>
+        <form action="/Starred Mails" method="get">
+          <button>Starred Mails</button>
+        </form>
+        <form action="/Bin" method="get">
+          <button>Bin</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

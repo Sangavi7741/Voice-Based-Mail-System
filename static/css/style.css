@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #2980b9;
+  color: white;
+  font-size: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #1c638a;
+}
+body {
+  background-image: url('https://cutewallpaper.org/21/photo-background-change/How-to-Change-the-Background-Color-on-Wix-Wix-Video-Tutorial.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
